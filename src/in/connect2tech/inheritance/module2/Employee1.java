@@ -8,9 +8,9 @@ public class Employee1 {
 		this.department = department;
 		this.salary = salary;
 	}
-	public void works()
+	public void details()
 	{
-		System.out.println("Works for the " + department +" department of the organization.");
+		System.out.println("Deatils of Employee :");
 	}
 
 }

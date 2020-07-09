@@ -12,10 +12,10 @@ public class Manager extends Employee {
 
 public static void main(String[] args) {
 		Manager m = new Manager();
+		m.details();
 		System.out.println("Department of the employee: "+ m.department);
 		System.out.println("Designation of the employee: "+ m.designation);
 		System.out.println("Salary of the employee: "+ (m.salary + m.allowances + m.bonus) );
-		m.works();
 		m.manages();
 
 	}
